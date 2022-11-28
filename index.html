@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="./timer.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZX1yXSmQE1xWU35ZgJjn_vQnIGhX5TPIRbw&usqp=CAU">
+</head>
+<body>
+    <div class="container">
+        <div class="timer">
+            <div class="timer_display">
+                <h1 id="timer_time_left">25:00</h1>
+            </div>
+            <div class="timer_controls">
+                <button class="timer_button" onclick="start()">Start</button>
+                <button class="timer_button" onclick="stop()">Stop</button>
+                <button class="timer_button" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="./timer.js"></script>
+</body>
+</html>
